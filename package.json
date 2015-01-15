@@ -13,7 +13,8 @@
         "url": "https://github.com/db4-dev/petulant-octo-shame"
     },
     "dependencies": {
-        "jsonschema": "*"
+        "jsonschema": "*",
+          "lodash": "*"
     },
     "private": true
 }
