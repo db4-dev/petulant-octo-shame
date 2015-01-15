@@ -3,7 +3,7 @@ var Validator = require("jsonschema").Validator;
 var _ = require("lodash");
 
 var data = {
-    "id": 1,
+    "ids": 1,
     "name": "A green door",
     "price": 12.50,
     "tags": ["home", "green"]
