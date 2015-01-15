@@ -1,0 +1,19 @@
+{
+    "name": "petulant-octo-shame",
+    "version": "0.0.1",
+    "description": "",
+    "author": "Bernhard Wendel <bwendel@gmx.de>",
+    "scripts": {
+        "test": "node index.js",
+        "start": "node index.js"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/db4-dev/petulant-octo-shame"
+    },
+    "dependencies": {
+        "jsonschema": "*"
+    },
+    "private": true
+}
