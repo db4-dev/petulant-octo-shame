@@ -1,5 +1,6 @@
 
 var Validator = require("jsonschema").Validator;
+var _ = require("lodash");
 
 var data = {
     "id": 1,
@@ -33,3 +34,8 @@ var schema = {
 
 var v = new Validator();
 console.log(v.validate(data, schema));
+
+var keys = _.keys(schema.properties);
+console.log("Keys", keys);
+
+console.log("Stripped", _.pick(data, keys));
